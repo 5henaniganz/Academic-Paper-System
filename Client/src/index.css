@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-container {
+    min-height: calc(88vh);
+  }
+  
+  .main-image {
+    
+  }
+.footer--pin {
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .fade-in{
+    animation: fadein 0.8s;
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
